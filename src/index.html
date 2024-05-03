@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Custom checkbox</title>
+    <link href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/index.css" rel="stylesheet"/>
+    <link rel="shortcut icon" href="https://cdn.jsdelivr.net/npm/h8k-design@latest/dist/assets/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.esm.js"
+            type="module"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/h8k-components/dist/h8k-components/h8k-components.js"></script>
+</head>
+
+<body>
+<!--HTML content goes here-->
+<h8k-navbar header="Custom checkbox"></h8k-navbar>
+
+<div class="my-40 mx-auto">
+    <div class="container">
+        <div class="screen">
+            <h3>Your checkbox</h3>
+            <div class="form-row">
+                <input type="checkbox" class="form-checkbox" id="completeTask">
+                <label for="completeTask">Complete the task</label>
+            </div>
+        </div>
+
+        <div class="screen">
+            <h3>Template</h3>
+            <div class="template">
+                <h4>Unchecked</h4>
+                <img src="./images/unchecked.png" width="171" />
+                <h4>Checked</h4>
+                <img src="./images/checked.png" width="172" />
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+<!-- HMR and test infrastructure - DO NOT EDIT -->
+<script src="./bundle.js"></script>
+</html>
